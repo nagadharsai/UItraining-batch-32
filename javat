@@ -1,1 +1,39 @@
-working
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Full Name</title>
+  <style>
+    body {
+      background-color: blue;
+      color: green;
+      border: 2px solid green;
+      border-radius: 5px;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <h1>Nagadhar Sai Kanderi</h1>
+  <h2>Background</h2>
+  <p>
+    My name is Nagadhar Sai Kanderi. I have pursued my education in both undergraduate and master's programs, gaining valuable experience along the way.
+  </p>
+  
+  <h2>Undergraduate Studies</h2>
+  <p>
+    I completed my undergraduate studies in <strong>Dayananda Sagar College</strong>, In <strong>Electronics and Communication Engineering</strong>.
+  </p>
+  
+  <h2>Master's Degree</h2>
+  <p>
+    After completing my undergraduate studies, I pursued a master's degree in <strong>Computer Information Systems</strong> at <strong>Christian Brothers University</strong>.
+  </p>
+  
+  <h2>Experience</h2>
+  <p>
+    6 months of IT Experience.
+  </p>
+  
+</body>
+</html>
