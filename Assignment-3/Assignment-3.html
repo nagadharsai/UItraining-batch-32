@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+
+    <script>
+        var env = "dev"; // Change the value of `env` to see different results
+        
+        var sendingAmount = 10; // Initial sending amount
+        
+        if (env === "dev") {
+            sendingAmount += (sendingAmount * 0.1); // 10% increase
+        } else if (env === "test") {
+            sendingAmount += (sendingAmount * 0.2); // 20% increase
+        } else if (env === "stage") {
+            sendingAmount += (sendingAmount * 0.3); // 30% increase
+        } else if (env === "prod") {
+            sendingAmount += (sendingAmount * 0.05); // 5% increase
+        }
+        
+        console.log("Sending Amount: $" + sendingAmount);
+        
+        // Display the sending amount in the HTML document
+        var sendingAmountElement = document.createElement("p");
+        sendingAmountElement.textContent = "Sending Amount: $" + sendingAmount;
+        document.body.appendChild(sendingAmountElement);
+    </script>
+</body>
+</html>
